@@ -15,3 +15,15 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\user\Desktop\h_w_lesson50\Animals
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/user/Desktop/h_w_lesson50/Animals/Views/Dog/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9nXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/h_w_lesson50/Animals/Views/Dog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/h_w_lesson50/Animals/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

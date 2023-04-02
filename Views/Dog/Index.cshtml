@@ -1,0 +1,42 @@
+﻿@using Animals.Controllers;
+@using Animals.Models;
+@model List<Dog>
+
+@{
+    ViewBag.Title = "Собаки";
+
+}
+
+<h2>Животные</h2>
+<a asp-action="Add" asp-controller="Dog">Добавить собаку</a>
+<div class="table_section">
+    @if (@Model.Count == 0)
+    {
+        <p>Собачки еще не добавлены</p>
+        
+    }
+    else
+    {
+        <table style="width: 100%;">
+            <tr>
+                <th>Id</th>
+                <th>Наименование</th>
+                <th>Компания</th>
+                <th>Стоимость</th>
+            </tr>
+            
+            @foreach (var dog in @Model)
+            {
+                <img class="fit-picture"
+                     src="@dog.Breed"
+                     alt="jkk">
+                <tr>
+                    <td>@dog.Id</td>
+                    <td>@dog.Name</td>
+                    <td>@dog.Weight</td>
+                </tr>
+            }
+
+        </table>
+    }
+</div>

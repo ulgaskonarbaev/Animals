@@ -1,0 +1,40 @@
+﻿@using Animals.Controllers;
+@using Animals.Models;
+@model Dog
+
+@{
+    ViewBag.Title = "Добавить собачку";
+   
+}
+
+<h2>Заполните форму для добавления собаки</h2>
+<div class="row">
+    <div class="phone_add_form col-md-6">
+        <form asp-action="Add" method="post">
+            <div class="form_row">
+                <label for="">
+                    Имя
+                    <input asp-for="Name" type="text">
+                </label>
+            </div>
+            <div class="form_row">
+                <label for="">
+                    Картинка
+                    <input asp-for="Breed" type="text">
+                </label>
+            </div>
+            <div class="form_row">
+                <label for="">
+                    вес
+                    <input asp-for="Weight" type="text">
+                </label>
+            </div>
+            <button type="submit">Создать</button>
+        </form>
+    </div>
+    
+        <a class="nav-link text-dark" asp-area="" asp-controller="Phones" asp-action="Index">Телефоны</a>
+   
+
+</div>
+
